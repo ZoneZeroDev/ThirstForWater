@@ -1,0 +1,11 @@
+{
+  "prefix": "&b[TFWR]: ",
+  "ph_no_thirst": "&aDu hast keinen Durst",
+  "ph_light_thirst": "&aLeichte Mundtrockenheit",
+  "ph_medium_thirst": "&eMäßiger Mundtrockenheit",
+  "ph_hard_thirst": "&6Sofort trinken!",
+  "ph_critical_thirst": "&c!",
+  "ph_thirst": "&aDurst",
+  "death_message": "&6&f{PLAYER} &6 starb an Wasserverlust.",
+  "command_help": "&b====== &6&lTHIRST&b&lFORWATER &b======"
+}

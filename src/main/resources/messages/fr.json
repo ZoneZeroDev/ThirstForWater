@@ -1,0 +1,11 @@
+{
+  "prefix": "&b[TFWR] : ",
+  "ph_no_thirst": "&aTu n'as pas soif",
+  "ph_light_thirst": "&aBouche légèrement sèche",
+  "ph_medium_thirst": "&eBouche sèche modérée",
+  "ph_hard_thirst": "&6Tu as soif",
+  "ph_critical_thirst": "&cBoire immédiatement!",
+  "ph_thirst": "&aSoif",
+  "death_message": "&6&f{PLAYER} &6 est mort suite à une perte d'eau.",
+  "command_help": "&b====== &6&lTHIRST&b&lFORWATER &b======"
+}

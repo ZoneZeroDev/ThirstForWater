@@ -1,0 +1,11 @@
+{
+  "prefix": "&b[TFWR]: ",
+  "ph_no_thirst": "&aВы не хотите пить",
+  "ph_light_thirst": "&aЛёгкая сухость во рту",
+  "ph_medium_thirst": "&eУмеренная сухость во рту",
+  "ph_hard_thirst": "&6Вы хотите пить",
+  "ph_critical_thirst": "&сПопейте немедленно!",
+  "ph_thirst": "&aЖажда",
+  "death_message": "&6Игрок &f{PLAYER} &6умер от потери воды в организме.",
+  "command_help": "&b====== &6&lTHIRST&b&lFORWATER &b======"
+}

@@ -1,0 +1,9 @@
+# In general, it is better not to touch it, but you can play around with it. In short, the lower the value, the faster the player runs out of water.
+world.walk:
+  - world:8
+  - world_nether:5
+  - world_the_end:8
+world.action:
+  - world:5
+  - world_nether:3
+  - world_the_end:5

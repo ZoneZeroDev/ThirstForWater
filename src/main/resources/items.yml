@@ -1,0 +1,34 @@
+# Plugin item metadata. Here you can change the filter and purified water bottle.
+filter:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Water
+      filter"}],"text":""}'
+    lore:
+      - '{"text":"\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Charcoal-based
+      filter that can purify a bottle of water."}],"text":""}'
+      - '{"text":"\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"}'
+    enchants:
+      WATER_WORKER: 1
+water:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Clear
+      water bottle"}],"text":""}'
+    lore:
+      - '{"text":"\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"The
+      water in this bottle is purified."}],"text":""}'
+      - '{"text":"\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"}'
+    enchants:
+      WATER_WORKER: 1
+    potion-type: minecraft:water

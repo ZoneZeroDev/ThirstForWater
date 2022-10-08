@@ -1,0 +1,6 @@
+# What effects to give to the player when he has a high level of thirst
+# They can be found on https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+effects:
+  - WEAKNESS
+  - SLOW_DIGGING
+  - SLOW

@@ -1,0 +1,18 @@
+name: ThirstForWaterReload
+version: '${version}'
+main: kiinse.plugin.thirstforwater.ThirstForWater
+api-version: 1.18
+prefix: TFWR
+depend:
+  - DarkWaterAPI
+softdepend: [ PlaceholderAPI ]
+authors: [ kiinse ]
+description: This plugin adds a thirst and drink system.
+website: https://kiinse.me
+permissions:
+  tfw.consumption.vip:
+    description: Thrist consumption is reduced.
+  tfw.consumption.premium:
+    description: Thrist consumption is reduced.
+  tfw.consumption.deluxe:
+    description: Thrist consumption is reduced.

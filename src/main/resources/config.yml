@@ -1,0 +1,50 @@
+pg.enabled: false # If enabled, then instead of json, all data will be saved in postgresql
+pg.host: localhost # Postgresql host
+pg.port: 5432 # Postgresql port
+pg.login: postgres # Postgresql login
+pg.password: postgres # Postgresql password
+pg.dbname: thirstforwater # Postgresql database name
+
+poisoning.bottle.chance: 50 # Chance of poisoning when drinking from a vial of water
+poisoning.block.chance: 90 # Chance of being poisoned when drinking from a block of water
+poisoning.duration: 20 # Poison duration in seconds
+poisoning.remove.seconds: 0.7 # How much thirst is removed when poisoned in seconds
+
+recovery.block: 20.0 #Recovery from water block
+recovery.bottle.default: 20.0 # Recovery from a bottle of water
+recovery.bottle.clean: 35.0 # Recovery from a clean bottle of water
+
+remove.thirst.walk: 0.75 # How much thirst is added when walking
+remove.thirst.action: 1.0 # How much thirst is added when running, jumping, etc.
+
+permission.consumption.vip: 0.15 # By what percentage is consumption reduced for players with 'tfw.consumption.vip' permissions (Default: 15%)
+permission.consumption.premium: 0.30 # By what percentage is consumption reduced for players with 'tfw.consumption.premium' permissions (Default: 30%)
+permission.consumption.deluxe: 0.45 # By what percentage is consumption reduced for players with 'tfw.consumption.deluxe' permissions (Default: 45%)
+
+cooking.time: 140 # Cooking time for a bottle of water in the oven
+cooking.experience: 0.35 #H ow much experience a player gains when cooking in an oven
+
+damage: 3 # Damage when the player has no water left
+
+recipe.filter: true # filter recipe
+recipe.bottle.clean: true # Pure water bottle recipe
+recipe.bottle.snow: true # Snow water bottle recipe
+
+first.join.give.bottle: true
+first.join.give.filter: true
+first.join.amount.bottle: 1
+first.join.amount.filter: 3
+
+add.effects.enable: true # Whether to give effects to the player when he has too much thirst
+add.effects.thirst: 20 # When to give effects to the player (At what percentage of his water)
+
+indicator.actionbar: true
+indicator.full: "&6&l[&1##########&6&l]"
+indicator.empty: "&6&l[&4----------&6&l]"
+indicator.char.first: "&b#"
+indicator.char.second: "&8-"
+indicator.format: "&6&l[{INDICATOR}&6&l]"
+
+
+
+config.version: 1 # Don't touch this
