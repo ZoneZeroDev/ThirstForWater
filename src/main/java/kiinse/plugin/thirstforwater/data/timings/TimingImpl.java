@@ -24,15 +24,15 @@ public class TimingImpl implements Timing {
     }
 
     @Override
-    public double getActions(@NotNull UUID uuid) throws TimingException {
-        if (actions.containsKey(uuid)) return actions.get(uuid);
-        throw new TimingException("Player UUID not found");
+    public double getActions(@NotNull UUID uuid) {
+        if (!hasActionsUUID(uuid)) setActions(uuid, 0);
+        return actions.get(uuid);
     }
 
     @Override
-    public double getWalk(@NotNull UUID uuid) throws TimingException {
-        if (walk.containsKey(uuid)) return walk.get(uuid);
-        throw new TimingException("Player UUID not found");
+    public double getWalk(@NotNull UUID uuid) {
+        if (!hasWalkUUID(uuid)) setWalk(uuid, 0);
+        return walk.get(uuid);
     }
 
     @Override
@@ -43,7 +43,7 @@ public class TimingImpl implements Timing {
 
     @Override
     public void setActions(@NotNull UUID uuid, double value) {
-        if (!actions.containsKey(uuid)) {
+        if (!hasActionsUUID(uuid)) {
             actions.put(uuid, value);
             return;
         }
@@ -52,7 +52,7 @@ public class TimingImpl implements Timing {
 
     @Override
     public void setWalk(@NotNull UUID uuid, double value) {
-        if (!walk.containsKey(uuid)) {
+        if (!hasWalkUUID(uuid)) {
             walk.put(uuid, value);
             return;
         }
